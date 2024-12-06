@@ -16,6 +16,7 @@ async function main() {
     console.log(`GovToken deployed to: ${govToken.target}`);
 
     // Deploy the TimeLock contract
+         //Timelock
     const timeLock = await ethers.deployContract("TimeLock", [0, [deployer.address], [deployer.address], deployer.address]);
     await timeLock.waitForDeployment();
 
