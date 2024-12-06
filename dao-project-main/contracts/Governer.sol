@@ -35,7 +35,7 @@ contract MyGovernor is
     }
 
     // The functions below are overrides required by Solidity.
-        // solidity function
+        // solidity function recorded
 
     function state(uint256 proposalId) public view override(Governor, GovernorTimelockControl) returns (ProposalState) {
         return super.state(proposalId);
