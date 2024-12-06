@@ -17,6 +17,7 @@ contract GovToken is ERC20, ERC20Permit, ERC20Votes, Ownable {
     }
 
     // The functions below are overrides required by Solidity.
+        // overrided
 
     function _update(address from, address to, uint256 amount) internal override(ERC20, ERC20Votes) {
         super._update(from, to, amount);
