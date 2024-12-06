@@ -142,5 +142,6 @@ describe("DAO Contract Testing Flow", function () {
         // Certificates,issued (event)  - Cert
 
         console.log(await Cert.Certificates(101))
+        //
     });
 });
