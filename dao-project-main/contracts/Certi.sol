@@ -19,7 +19,7 @@ contract Cert is Ownable {
   mapping (uint256 => Certificate) public Certificates;
 
   event issued(uint256 cid, string cidate);
-
+//
   function issue (
       uint256 _id,
       string memory _name,
